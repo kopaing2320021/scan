@@ -22,9 +22,9 @@ from aiohttp import web
 load_dotenv(dotenv_path=".env")
 
 # Token များကို ဆွဲထုတ်ပါ
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = 8714575493:AAFMB41QZv82tt4qxTHhYXirGLCXRT1-Ous
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-ADMIN_ID = os.getenv('ADMIN_ID')
+ADMIN_ID = 7070690379
 
 # Bot ကို စတင်သတ်မှတ်ပါ
 bot = AsyncTeleBot(BOT_TOKEN)
